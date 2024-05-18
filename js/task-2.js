@@ -14,7 +14,7 @@ function calcAverageCalories(days) {
 
 
 
-
+console.group("task2")
 
 console.log(
     calcAverageCalories([
@@ -44,3 +44,4 @@ console.log(
 console.log(
     calcAverageCalories([])
 ); // 0
+console.groupEnd;
